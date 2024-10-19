@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "l1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --watch index.js index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "imports": {
+    "#app/*": {
+      "default": "./app/*"
+    }
+  }
+}
